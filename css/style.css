@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #0D0D2B;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	letter-spacing: 0.01em;
+	list-style: none;
+	text-decoration: none;
+	line-height: 28px;
+}
+header {
+	height: 102px;
+}
+.header_container {
+	width: 1202px;
+	margin: 0px auto;
+}
+.header_content {
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.header_li_item {
+	padding-top: 14px;
+}
+.header_ul {
+	display: flex;
+}
+.login {
+	padding-left: 56px;
+	padding-top: 14px;
+	font-weight: 500;
+
+}
+.symbol {
+	padding: 14px 24px 0px 24px;
+	opacity: 0.3;
+	color: #F2F2F2;
+}
+.register {
+	font-weight: 500;
+	width: 130px;
+	height: 52px;
+	background: #3671E9;
+	border-radius: 32px;
+	padding: 12px 32px;
+}
+.header_li_item:not(:last-child) {
+	padding-left: 32px;
+}
+
+.page_width {
+	width: 1202px;
+	margin: 0px auto;
+}
+
+.crypto_platform_technologies {
+	margin-top: 90px;
+}
+
+.crypto_container {
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	padding: 24px 0px;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 76px;
+}
+
+.purchase_offer {
+	color: #E0E0E0;
+}
+
+.try_to_free a {
+
+	font-weight: 500;
+	font-size: 18px;
+	width: 154px;
+	height: 59px;
+	background: #3671E9;
+	border-radius: 32px;
+	padding: 16px 24px;
+}
+
+.crypto_header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 32px;
+	width: 365px;
+	height: 40px;
+}
+
+.crypto_save {
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #0D0D2B;
+	background: #FFFFFF;
+	border-radius: 32px;
+	padding: 4px 16px;
+}
+
+.crypto_save_text {
+	padding-left: 16px;
+	background: none;
+}
+.try_to_free {
+	padding-top: 36px;
+}
+
+.statistics {
+	margin-top: 100px;
+}
+
+.statistic_image img {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 24px;
+	border-radius: 50%;
+}
+
+.first_statisctic {
+	display: flex;
+	align-items: center;
+}
+
+.statisctic_number {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.statisctic_whos {
+	color: #E0E0E0;
+}
+
+.statisctic_text {
+	padding-left: 24px;
+
+}
+
+.statisctic_number {
+	padding-top: 4px;
+}
+
+.statistics_container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.converter_info {
+	margin-top: 100px;
+}
+
+.converter_title {
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+.converter_text {
+	padding-top: 24px;
+	font-size: 18px;
+text-align: center;
+color: #E0E0E0;
+}
+
+.converter_container {
+	width: 942px;
+	margin: 0 auto;
+	padding: 0px 48px;
+	background: #FBFCFE;
+	border-radius: 16px 16px 0px 0px;
+	height: 371px;
+}
+
+.converter {
+	margin-top: 64px;
+
+}
+
+.converter_input, .converter_header {
+	background: #FBFCFE;
+	border: 1px solid #FBFCFE;
+	color: #0D0D2B;
+	font-size: 20px;
+}
+
+.converter_header {
+	padding-top: 62px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.THS  {
+	color: #0D0D2B;
+	font-size: 20px;
+	background: #FBFCFE;
+}
+
+.calculate {
+	background: none;
+}
+.calculate a {
+	color: #FFFFFF;
+	font-weight: 500;
+	padding: 16px 32px;
+	background: #3671E9;
+	border-radius: 32px;
+}
+
+.result_title {
+	text-transform: uppercase;
+	color: #3671E9;
+	font-weight: 500;
+	padding-top: 103px;
+}
+
+.about_mining {
+	padding-top: 4px;
+	color: #828282;
+}
+
+.result_numbers {
+	padding-top: 16px;
+	font-weight: bold;
+	font-size: 32px;
+	color: #0D0D2B;
+}
+
+.result_title, .result_numbers, .about_mining {
+	background: #FBFCFE;
+
+}
+
+.trades_title {
+	margin-top: 100px;
+	text-align: center;
+	color: #0D0D2B;
+	font-size: 40px;
+}
+
+.mining_container {
+	background: white;
+	border-radius: 16px;
+	width: 370px;
+	height: 433px;
+	text-align: center;
+	padding-top: 48px;
+}
+
+.mining_colums {
+	display: flex;}
+}
+
+.mining_sub_name {
+	color: #BDBDBD;
+	background: white;
+}
+.mining_eth_and_lite, .mining_eth_and_lite img, .start_mining, .a_start_mining, .mining_name, .mining_text, .ltc, .eth {
+	background: white;
+}
+
+.start_mining img {
+	border-radius: 50%;
+	border: 2px solid rgba(43, 7, 110, 0.2);
+}
+
+.mining_name {
+	color: #0D0D2B;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.mining_text {
+	color: #828282;
+}
+
+.ltc, .eth {
+	color: #BDBDBD;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.mining_name {
+	padding-top: 48px;
+}
+
+.mining_text, .bitcoin_text  {
+	padding-top: 16px;
+}
+
+.start_mining {
+	padding-top: 25px;
+}
+
+._btc_container {
+	background: #2B076E;
+	backdrop-filter: blur(250px);
+	border-radius: 16px;
+}
+
+._btc, ._btc img {
+	background: #2B076E;	
+} 
+
+.mining_content_btc {
+	text-align: center;
+	padding-top: 48px;
+}
+
+.bitcoin {
+	padding-top: 48px;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.mining_container {
+	margin-left: 45px;
+}
+
+.a_start_mining_btc {
+	background: #3671E9;
+	border-radius: 32px;
+	width: 205px;
+	height: 64px;
+	padding: 18px 40px;
+
+}
+
+.start_mining_btc {
+	background: #2B076E;
+	margin-top: 35px;
+}
+
+.form_email {
+	margin-top: 100px;
+	height: 392px;
+}
+
+
+.email_content {
+	padding-top: 136px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.email_title {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.email_sub_title {
+	padding-top: 16px;
+}
+
+.email_hr {
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	width: 374px;
+	margin-top: 7px;
+}
+
+.input_email {
+	border: #3671E9;
+}
+
+.email_button {
+	color: #0D0D2B;
+	background: #FFFFFF;
+	border-radius: 32px;
+	height: 55px;
+	padding: 14px 32px;
+	margin-left: 40px;
+}
+
+footer {
+	width: 1202px;
+	margin: 0px auto;
+}
+
+.footer_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.icons a {
+	margin-left: 35px;
+}
+
+.trades_title {
+	color: white;
+	line-height: 60px;
+}
+
+.mining_colums {
+	padding-top: 64px;
+}
+
+.form input::placeholder {
+  color: white;
+}
